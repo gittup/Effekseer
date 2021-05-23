@@ -158,7 +158,9 @@ public:
 	void Render();
 	void Reset();
 	void SetEffect(Effekseer::EffectRef effect);
+	
 	void SetBehavior(const ViewerEffectBehavior& behavior);
+	const ViewerEffectBehavior& GetBehavior() const;
 
 	int32_t GetInstanceCount()
 	{

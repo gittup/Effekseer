@@ -214,8 +214,6 @@ private:
 	bool g_mouseSlideDirectionInvX = false;
 	bool g_mouseSlideDirectionInvY = false;
 
-	Effekseer::Tool::ViewerEffectBehavior behavior_;
-
 	::Effekseer::EffectRef effect_ = nullptr;
 
 	::Effekseer::Vector3D m_rootLocation;
@@ -316,7 +314,7 @@ public:
 
 	Effekseer::Tool::ViewerEffectBehavior GetEffectBehavior();
 
-	void SetViewerEffectBehavior(Effekseer::Tool::ViewerEffectBehavior& behavior);
+	void SetViewerEffectBehavior(Effekseer::Tool::ViewerEffectBehavior behavior);
 
 	bool SetSoundMute(bool mute);
 
